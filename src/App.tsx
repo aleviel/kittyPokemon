@@ -1,5 +1,13 @@
 import React from 'react';
 
+import { ReactComponent as SVG } from './logo.svg';
+
 export const App = () => {
-  return <div>кис кис киса. киса кисуня</div>
+
+  return <>
+  <div>
+    <SVG/>
+  </div>
+  </>
+
 }
